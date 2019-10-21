@@ -11,7 +11,7 @@ pool:
 
 variables:
   solution: '**/*.csproj'
-  platform: 'Any CPU'
+  platform: 'AnyCPU'
   configuration: 'Release'
 
 steps:
