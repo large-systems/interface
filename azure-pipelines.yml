@@ -24,13 +24,13 @@ steps:
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    platform: '$(platform)'
+    configuration: '$(configuration)'
 
 #- task: VSTest@2
 #  inputs:
-#    platform: '$(buildPlatform)'
-#    configuration: '$(buildConfiguration)'
+#    platform: '$(platform)'
+#    configuration: '$(configuration)'
 
 - task: CopyFiles@1
   inputs:
