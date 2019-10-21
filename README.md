@@ -1,5 +1,5 @@
 # Assignment3LargeSystem 
-[![Azure Build Status](https://dev.azure.com/cph-gm/HotelSystem/_apis/build/status/large-systems.Assignment3LargeSystem?branchName=master)](https://dev.azure.com/cph-gm/HotelSystem/_build/latest?definitionId=2&branchName=master)
+[![HotelInterface package in Interface-feed feed in Azure Artifacts](https://feeds.dev.azure.com/cph-gm/_apis/public/Packaging/Feeds/00f28315-07cd-4904-bb81-bcbe1fda6296/Packages/3fc18ddb-6b4c-415e-a6ad-a362e360e07f/Badge)](https://dev.azure.com/cph-gm/HotelSystem/_packaging?_a=package&feed=00f28315-07cd-4904-bb81-bcbe1fda6296&package=3fc18ddb-6b4c-415e-a6ad-a362e360e07f&preferRelease=true) [![Build Status](https://dev.azure.com/cph-gm/HotelSystem/_apis/build/status/large-systems.interface?branchName=master)](https://dev.azure.com/cph-gm/HotelSystem/_build/latest?definitionId=4&branchName=master)
 
 ## Links
 
