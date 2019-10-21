@@ -11,8 +11,8 @@ pool:
 
 variables:
   solution: '**/*.csproj'
-  configuration: 'AnyCPU'
-  platform: 'Release'
+  configuration: 'Release'
+  platform: 'AnyCPU'
 
 steps:
 - task: NuGetToolInstaller@1
