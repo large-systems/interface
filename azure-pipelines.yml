@@ -54,5 +54,5 @@ steps:
   displayName: 'NuGet push'
   inputs:
     command: push
-    publishVstsFeed: 'test-feed'
+    publishVstsFeed: 'Interface-feed'
     allowPackageConflicts: true
