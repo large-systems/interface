@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Runtime.Serialization;
 
 namespace HotelSystem.Exception
 {
+    [DataContract]
     public class BookingNotFoundException : System.Exception
     {
     }
