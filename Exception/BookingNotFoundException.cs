@@ -3,7 +3,7 @@
 namespace HotelSystem.Exception
 {
     [DataContract]
-    public class BookingNotFoundException : System.Exception
+    public class BookingNotFoundException
     {
     }
 }

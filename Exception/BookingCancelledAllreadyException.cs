@@ -3,7 +3,7 @@
 namespace HotelSystem.Exception
 {
     [DataContract]
-    public class BookingCancelledAllreadyException : System.Exception
+    public class BookingCancelledAllreadyException
     {
     }
 }

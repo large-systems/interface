@@ -3,7 +3,7 @@
 namespace HotelSystem.Exception
 {
     [DataContract]
-    public class RoomNotAvailableException : System.Exception
+    public class RoomNotAvailableException
     {
     }
 }
