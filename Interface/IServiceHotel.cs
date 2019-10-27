@@ -85,5 +85,8 @@ namespace HotelInterface.Interface
         bool CreateBooking(DateTime startDate, DateTime endDate,  int numberGuest, List<RoomIdentifier> listOfRooms,
             int passportNumber, string guestNumber);
 
+        [OperationContract]
+        string EchoTest(string input);
+
     }
 }
