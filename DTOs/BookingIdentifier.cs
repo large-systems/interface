@@ -4,18 +4,37 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Web;
 
-namespace HotelSystem.DTOs
+namespace HotelInterface.DTOs
 {
     [DataContract]
     public class BookingIdentifier
     {
-        private int _id;
-
-        public int ID { get { return _id; } set { _id = value; } }
+        public int ID { get; set; }
 
         public BookingIdentifier(int id)
         {
-            _id = id;
+            ID = id;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj))
+            {
+                return false;
+            }
+            if (ReferenceEquals(this, obj))
+            {
+                return true;
+            }
+            var other = obj as BookingIdentifier;
+            return ID.Equals(other.ID);
+        }
+
+        public override int GetHashCode()
+        {
+            var hashCode = -867290869;
+            hashCode = hashCode * -1521134295 + ID.GetHashCode();
+            return hashCode;
         }
     }
 }

@@ -1,21 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Web;
+﻿using System.Runtime.Serialization;
 
-namespace HotelSystem.DTOs
+namespace HotelInterface.DTOs
 {
     [DataContract]
     public class HotelChainIdentifier
     {
-        private int _id;
-
-        public int ID { get { return _id; } set { _id = value; } }
+        public int ID { get; set; }
 
         public HotelChainIdentifier(int id)
         {
-            _id = id;
+            ID = id;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (ReferenceEquals(null, obj))
+            {
+                return false;
+            }
+            if (ReferenceEquals(this, obj))
+            {
+                return true;
+            }
+            var other = obj as HotelChainIdentifier;
+            return ID.Equals(other.ID);
+        }
+
+        public override int GetHashCode()
+        {
+            return 1213502048 + ID.GetHashCode();
         }
     }
 }

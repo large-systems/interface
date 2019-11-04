@@ -5,7 +5,6 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 using HotelInterface.DTOs;
-using HotelSystem.DTOs;
 using HotelSystem.Exception;
 
 namespace HotelInterface.Interface

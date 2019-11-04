@@ -4,7 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Web;
 
-namespace HotelSystem.DTOs
+namespace HotelInterface.DTOs
 {
     [DataContract]
     public class RoomDetails : RoomIdentifier
