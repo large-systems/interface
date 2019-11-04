@@ -3,7 +3,12 @@
 
 ## Links
 
-  [Azure devops project](https://dev.azure.com/cph-gm/HotelSystem)
+- [Azure devops project](https://dev.azure.com/cph-gm/HotelSystem)
+- [Azure hosting](https://portal.azure.com) **Note** you might be missing access.
+- [Frontend deployment url](https://hotel-frontend.azurewebsites.net)
+- [Backend deployment url](https://hotel-backend.azurewebsites.net)
+  - [ImplementingServiceHotel service](https://hotel-backend.azurewebsites.net/ImplementingServiceHotel.svc)
+- [A good read about doing WCF manually](http://www.devx.com/codemag/Article/39837)
 
 ## Guides
 
