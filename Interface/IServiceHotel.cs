@@ -87,5 +87,16 @@ namespace HotelInterface.Interface
         [OperationContract]
         string EchoTest(string input);
 
+
+        /// <summary>
+        /// Returns hotels that have the specified number of  available rooms, in the specified city, for the specified dates
+        /// </summary>
+        /// <param name="startDate"></param>W
+        /// <param name="endDate"></param>
+        /// <param name="numRooms"></param>
+        /// <param name="city"></param>
+        /// <returns></returns>
+        [OperationContract]
+        List<HotelDetails> FindAvailableHotels(DateTime startDate, DateTime endDate, int numRooms, string city);
     }
 }
