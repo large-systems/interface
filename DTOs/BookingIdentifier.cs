@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Web;
+﻿using System.Runtime.Serialization;
 
 namespace HotelInterface.DTOs
 {
     [DataContract]
     public class BookingIdentifier
     {
+        [DataMember]
         public int ID { get; set; }
 
         public BookingIdentifier(int id)

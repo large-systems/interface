@@ -5,6 +5,7 @@ namespace HotelInterface.DTOs
     [DataContract]
     public class HotelChainIdentifier
     {
+        [DataMember]
         public int ID { get; set; }
 
         public HotelChainIdentifier(int id)

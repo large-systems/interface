@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Web;
+﻿using System.Runtime.Serialization;
 
 namespace HotelInterface.DTOs
 {
@@ -19,12 +15,13 @@ namespace HotelInterface.DTOs
 
      
 
+        [DataMember]
         public int RoomNumber { get; set; }
-
+        [DataMember]
         public string RoomType { get; set; }
-
+        [DataMember]
         public double Price { get; set; }
-
+        [DataMember]
         public int Capacity { get; set; }
 
         public RoomDetails(int id) : base(id)

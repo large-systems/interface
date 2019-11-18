@@ -16,11 +16,16 @@ namespace HotelInterface.DTOs
         public DateTime _arrival;
         public List<RoomDetails> _listOfRoomsDetails;
 
+        [DataMember]
         public DateTime StartDate { get; set; }
+        [DataMember]
         public DateTime EndDate { get; set; }
+        [DataMember]
         public int NumberOfRooms { get; set; }
+        [DataMember]
         public DateTime Arrival { get; set; }
 
+        [DataMember]
         public List<RoomDetails> ListOfRoomsDetails { get; set; }
 
 

@@ -5,6 +5,7 @@ namespace HotelInterface.DTOs
     [DataContract]
     public class RoomIdentifier
     {
+        [DataMember]
         public int ID { get; set; }
 
         public RoomIdentifier(int id)
