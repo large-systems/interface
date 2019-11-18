@@ -49,6 +49,7 @@
     <Compile Include="DTOs\BookingIdentifier.cs" />
     <Compile Include="DTOs\BookingDetails.cs" />
     <Compile Include="DTOs\HotelChainIdentifier.cs" />
+    <Compile Include="DTOs\HotelDetails.cs" />
     <Compile Include="DTOs\HotelIdentifier.cs" />
     <Compile Include="DTOs\RoomDetails.cs" />
     <Compile Include="DTOs\RoomIdentifier.cs" />
