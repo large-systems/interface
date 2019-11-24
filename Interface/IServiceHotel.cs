@@ -48,14 +48,16 @@ namespace HotelInterface.Interface
 
      
         /// <summary>
-        ///
+        /// Finds all the rooms in hotel that are available at the specified dates and are of type roomType
+        /// roomType is optional
         /// </summary>
-        /// <param name="date"></param>
         /// <param name="hotel"></param>
-        /// <param name="roomType"></param>
-        /// <returns> List of rooms based on given parameters </returns>
+        /// <param name="startDate"></param>
+        /// <param name="endDate"></param>
+        /// <param name="roomType">optional</param>
+        /// <returns></returns>
         [OperationContract]
-        List<RoomDetails> FindRooms( DateTime date, HotelIdentifier hotel, string roomType);
+        List<RoomDetails> FindRooms(HotelIdentifier hotel, DateTime startDate, DateTime endDate, string roomType);
 
         /// <summary>
         /// Addes a new Hotel based on given parameters
